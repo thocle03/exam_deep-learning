@@ -1,0 +1,7 @@
+model_var,label,test_loss,test_acc,cm_file
+model_mlp,MLP,3.220580816268921,0.29723501205444336,results\cm_model_mlp.png
+model_cnn,CNN,0.8977072238922119,0.8940092325210571,results\cm_model_cnn.png
+model_drop,CNN_Dropout,0.8183019161224365,0.8410138487815857,results\cm_model_drop.png
+model_bn,CNN_BatchNorm,0.4149554669857025,0.9116743206977844,results\cm_model_bn.png
+model_aug,CNN_Augmentation,1.9446593523025513,0.5099846124649048,results\cm_model_aug.png
+model_low_lr,CNN_lowLR,0.6358999013900757,0.9047619104385376,results\cm_model_low_lr.png
